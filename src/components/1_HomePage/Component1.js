@@ -3,7 +3,7 @@ function Component1() {
   return (
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="Portfolio/home">
           <img src={logo} alt="Logo" width="50" height="50" class="d-inline-block align-text-top" />
           <span class="text-warning ms-2">Shankar</span>
         </a>
