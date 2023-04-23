@@ -14,7 +14,7 @@ function App() {
     <div class="App">
       <BrowserRouter basename='/Portfolio'>
         <Routes>
-          <Route path="/Portfolio" index element={<Home />} />
+          <Route path="/Portfolio" exact element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/portfolio1" element={<Portfolio />} />
