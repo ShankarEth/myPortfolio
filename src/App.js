@@ -1,7 +1,7 @@
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
-import {HashRouter,Routes,Route} from 'react-router-dom';
+import {BrowserRouter,Routes,Route} from 'react-router-dom';
 
 import Home from './components/1_HomePage/Home';
 import About from './components/2_AboutPage/About';
@@ -12,16 +12,16 @@ import Contact from './components/6_Contact/Contact';
 function App() {
   return (
     <div class="App">
-      <HashRouter>
+      <BrowserRouter>
         <Routes>
-          <Route path="Portfolio/" index element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="/portfolio1" element={<Portfolio />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/contact" element={<Contact />} />  
+          <Route path="/Portfolio" index element={<Home />} />
+          <Route path="Portfolio/about" element={<About />} />
+          <Route path="Portfolio/resume" element={<Resume />} />
+          <Route path="Portfolio/portfolio1" element={<Portfolio />} />
+          <Route path="Portfolio/blog" element={<Blog />} />
+          <Route path="Portfolio/contact" element={<Contact />} />  
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </div>
   );
 }
