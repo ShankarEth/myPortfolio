@@ -12,9 +12,9 @@ import Contact from './components/6_Contact/Contact';
 function App() {
   return (
     <div class="App">
-      <BrowserRouter basename='/Portfolio'>
+      <BrowserRouter basename='myPortfolio/'>
         <Routes>
-          <Route path="/Portfolio" exact element={<Home />} />
+          <Route path="myPortfolio/" exact element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/portfolio1" element={<Portfolio />} />
