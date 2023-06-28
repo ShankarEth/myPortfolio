@@ -9,7 +9,7 @@ function About() {
         <div class="bg-dark">
             <Component1 />
             <div class="container">
-                <h5 class="mt-3 text-muted text-center">Get to know me</h5>
+                <h5 class="text-muted text-center">Get to know me</h5>
                 <h1 class="text-light text-center">About me</h1>
                 <br />
                 <div class="row">
